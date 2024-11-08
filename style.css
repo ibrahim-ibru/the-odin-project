@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    /* background-color: #f9fafb; */
+}
+
+.main-nav{
+    background-color: transparent;
+    color: #6b7280;
+    align-items: center;
+    padding: 1% 5%;
+}
+.img-logo{
+    height: 50px;
+}
+.img-logo img{
+    height: 100%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-home h1{
+    padding: 7% 15% 1%;
+    font-size:60px ;
+    text-align: center;
+}
+
+.text2-home{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.full-curriculam-btn{
+    text-align: center;
+}
+
+.block-1{
+    height: 57vh;
+}
+
+.block-2{
+    flex-wrap: wrap;
+    padding:8% 20% 0% ;
+    background-color: rgba(250, 235, 215,.5);
+}
+
+.block-2 div{
+    height: 300px;
+    width: 200px;
+    margin: 10px 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.block-2 img{
+    width: 100%;
+}
+
+.block-3{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom,white,rgba(128, 128, 128, 0.108));
+} 
+
+.block-3 div{
+    height: 170px;
+    width: 42%;  
+    /* background-color: red; */
+}
+
+.block-3 .block-3-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #6b7280;
+}
+
+.a-bg,body a{
+    color: #6b7280;
+}
+.read-more,.support-us{
+    background-image: linear-gradient(to bottom ,rgba(128, 128, 128, 0.108),rgba(128, 128, 128, 0.128));
+}
+.foot{
+    background-color: white;
+    height: 40vh;
+}
+.foot div{
+    height: 100%;
+}
+.foot li{
+    list-style: none;
+}
